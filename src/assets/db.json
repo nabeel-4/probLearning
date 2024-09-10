@@ -1,0 +1,88 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100,
+      "likes": 10,
+      "published": true,
+      "body": "This is the body of the first post, providing detailed content."
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200,
+      "likes": 20,
+      "published": false,
+      "body": "The body of the second post goes into more depth about the topic."
+    },
+    {
+      "id": "3",
+      "title": "third title",
+      "views": 300,
+      "likes": 15,
+      "published": true,
+      "body": "Here is the third post, with additional insights and perspectives."
+    },
+    {
+      "id": "4",
+      "title": "fourth title",
+      "views": 150,
+      "likes": 25,
+      "published": false,
+      "body": "The fourth post covers a range of interesting discussions."
+    },
+    {
+      "id": "fe55",
+      "title": "nabeel",
+      "body": "1231313"
+    },
+    {
+      "id": "97b6",
+      "title": "tags checking",
+      "body": "tag checking"
+    },
+    {
+      "id": "d027",
+      "title": "new posts handling",
+      "body": "here we go"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1",
+      "author": "UserA",
+      "date": "2024-09-01"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1",
+      "author": "UserB",
+      "date": "2024-09-02"
+    },
+    {
+      "id": "3",
+      "text": "a comment about post 2",
+      "postId": "2",
+      "author": "UserC",
+      "date": "2024-09-03"
+    },
+    {
+      "id": "4",
+      "text": "a comment about post 3",
+      "postId": "3",
+      "author": "UserD",
+      "date": "2024-09-04"
+    }
+  ],
+  "profile": {
+    "name": "typicode",
+    "email": "typicode@example.com",
+    "age": 30,
+    "location": "Somewhere, Earth",
+    "bio": "Just a developer making awesome APIs."
+  }
+}
