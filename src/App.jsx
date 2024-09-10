@@ -5,33 +5,33 @@ import { useState } from "react";
 import SimpleForm from "./SimpleForm";
 const App = () => {
 
-  // const { isError, isLoading, error, data, isSuccess } = useGetPostsQuery("");
-  // const [newPost]=useCreatePostMutation();
-  // console.log(data);
+  const { isError, isLoading, error, data, isSuccess } = useGetPostsQuery("");
+  const [newPost]=useCreatePostMutation();
+  console.log(data);
   
-  // const [formData, setFormData] = useState({
-  //   title: "",
-  //   body: "",
-  // });
+  const [formData, setFormData] = useState({
+    title: "",
+    body: "",
+  });
 
-  // const handleChange = (e) => {
-  //   const { name, value } = e.target;
-  //   setFormData({
-  //     ...formData,
-  //     [name]: value,
-  //   });
-  // };
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   const post={
-  //     title:formData.title,
-  //     body:formData.body,
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const post={
+      title:formData.title,
+      body:formData.body,
 
-  //   }
-  //   newPost(post); 
-  //   setFormData({ title: "", body: "" }); // Reset form after submission
-  // };
+    }
+    newPost(post); 
+    setFormData({ title: "", body: "" }); // Reset form after submission
+  };
 
   return (
 
