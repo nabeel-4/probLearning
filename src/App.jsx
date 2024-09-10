@@ -4,7 +4,7 @@ import Posts from "./components/Posts";
 import { useState } from "react";
 import SimpleForm from "./SimpleForm";
 const App = () => {
-  
+
   // const { isError, isLoading, error, data, isSuccess } = useGetPostsQuery("");
   // const [newPost]=useCreatePostMutation();
   // console.log(data);
@@ -38,7 +38,7 @@ const App = () => {
     <>
    <SimpleForm/>
 
-      {/* <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="title">Title:</label>
           <input
@@ -64,7 +64,7 @@ const App = () => {
 
         <button type="submit">Submit</button>
       </form>
-      {isSuccess ? <Posts posts={data} /> : <h2> loading</h2>} */}
+      {isSuccess ? <Posts posts={data} /> : <h2> loading</h2>}
     </>
   );
 };
